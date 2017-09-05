@@ -102,6 +102,7 @@ PublisherKit.PublisherListener, Publisher.CameraListener, Session.StreamProperti
                     parent.addView(viewContainer.mView);
                 }
             }
+            parent.setBackgroundColor(Color.parseColor("#353535"));
             parent.addView(myWebView);
         }
         

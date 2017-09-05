@@ -33,7 +33,7 @@
     callbackList = [[NSMutableDictionary alloc] init];
     [self.webView setOpaque:NO];
     [self.webView setBackgroundColor:[UIColor clearColor]];
-    [self.webView.superview setBackgroundColor:[UIColor blackColor]];	
+    [self.webView.superview setBackgroundColor:[UIColor colorWithRed:0.21 green:0.21 blue:0.21 alpha:0.8]];	
     self.webView.layer.zPosition = 10;
 }
 - (void)addEvent:(CDVInvokedUrlCommand*)command{
